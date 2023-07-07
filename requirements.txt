@@ -1,0 +1,10 @@
+streamlit
+pandas
+altair
+plotly
+streamlit-aggrid
+beautifulsoup4
+openpyxl
+xlrd
+xlsxwriter
+pydrive
