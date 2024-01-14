@@ -4,7 +4,7 @@ import sources.bd as bd
 import sources.carga_ventas as cv
 import sources.carga_stock as cs
 import sources.carga_tasa_dolar as cd
-import sources.email as em
+#import sources.email as em
 
 import streamlit as st
 
@@ -39,9 +39,6 @@ def tratar_ventas(file):
         df = cv.calcular_monto_dolar(df)
 
         cv.guardar_datos_bd(df)
-
-        #em.enviar_correo('diavenca.cm@gmail.com', 'diavenca.cm@gmail.com', titulo='Archivo Ventas', file=file)
-
         result_ok = True
 
     return result_ok

@@ -168,7 +168,6 @@ def graph_table_select(df):
         data_return_mode='AS_INPUT', 
         update_mode='MODEL_CHANGED', 
         fit_columns_on_grid_load=True,
-        theme='blue', #Add theme color to the table
         enable_enterprise_modules=True,
         height=400, 
         reload_data=True
