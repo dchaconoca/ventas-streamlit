@@ -16,7 +16,7 @@ st.set_page_config(
     menu_items={
          'Get Help': None,
          'Report a bug': None,
-         'About': '''## Reporte de Ventas de Diavenca 
+         'About': '''## Reporte de Ventas de
          
          Aplicación hecha por Diana Chacón Ocariz'''
      }
@@ -25,7 +25,7 @@ st.set_page_config(
 # Lectura de datos
 df_ventas = lec.leer_ventas()
 
-st.title('Resumen de Ventas Diavenca')
+st.title('Resumen de Ventas')
 
 st.markdown('**Seleccione uno o varios años para analizar:**')
 

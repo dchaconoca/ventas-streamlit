@@ -51,10 +51,6 @@ def tratar_stock(file):
     df = cs.transformar_stock(df)
     cs.guardar_datos_bd(df)
 
-    #st.write(file.name)
-
-    #em.enviar_correo('diavenca.cm@gmail.com', 'diavenca.cm@gmail.com', asunto='Archivo Stock', file=file)
-
     result_ok = True
 
     return result_ok

@@ -21,7 +21,7 @@ st.set_page_config(
     menu_items={
          'Get Help': None,
          'Report a bug': None,
-         'About': '''## Reporte de Ventas de Diavenca 
+         'About': '''## Reporte de Ventas
          
          Aplicación hecha por Diana Chacón Ocariz'''
      }
