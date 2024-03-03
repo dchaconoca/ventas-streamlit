@@ -9,7 +9,7 @@ import sources.graph as gr
 import sources.lectura_datos as lec
 
 st.set_page_config(
-    page_title='Análisis Ventas Diavenca', 
+    page_title='Análisis Ventas', 
     page_icon=':bar_chart:', 
     layout="centered", 
     initial_sidebar_state="auto", 
